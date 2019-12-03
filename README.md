@@ -1,12 +1,18 @@
--# Forecasting Ozone Days¶
--uofan Wu, Shamil Saeed¶-nt the problem in which we wish to explore in this notebook, in that we wish to be able to forecast days in which Ozone levels are h-e will be looking at the 8hr peak dataset whose data was collected from 1998 to 2004 at the Houston, Galveston and Brazoria area-s loaded from OpenML
-https://www.openm-1592279/ozone-level-8hr-matrix and correlation heatmap of the features. - missing values, we double checked. It seems that the missing values in the original dataset from where this is based off of was acquired and filled. 
-We did however convert the DayClass from (1,2) to (0,1) where 0 is Normal Day and 1 is O-Zone Day.
-We also applied various dimensional reducing methods such as PCA and LDA.
+# Forecasting Ozone Days¶
+Collaborators: Richard Huang, Ruofan Wu, Shamil Saeed¶
 
-LDA seemed to be best at seperating O-Zone Days and Normal Days.
+## Understand
+Here we present the problem in which we wish to explore in this notebook, in that we wish to be able to forecast days in which Ozone levels are high. In this notebook, we will be looking at the 8hr peak dataset whose data was collected from 1998 to 2004 at the Houston, Galveston and Brazoria area.
 
-Afterwards, we created a training and test dataset.
+## Load
+The data is loaded from OpenML
+https://www.openml.org/data/v1/download/1592279/ozone-level-8hr
+
+## Explore
+There is a scatter_matrix and correlation heatmap of the features. 
+
+## Scrubbing
+There were no missing values, we double checked. It seems that the missing values in the original dataset from where this is based off of was acquired and filled. 
 
 ## Modeling
 We built the following models:
