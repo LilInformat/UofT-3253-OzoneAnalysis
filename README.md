@@ -31,6 +31,11 @@ The Voting Classifier is a ensemble of the previous ones mentioned.
 We also created a Neural Network and compared the results to the other classifiers.
 We focused on Precision and Recall scores for assessing which classifier is better. Since this concerns the health of living creatures, we priortorized Recall score over Precision score.
 
+## Tuning
+We tried using different activation methods and seeing how that would affect the results. Ultimately, we stuck with Selu because it gave better results; however Relu is much faster.
+
+We added Dropouts to reduce overfitting.
+
 ## Predict
 We chose to use the Neural Network and ran it on the test set
 
