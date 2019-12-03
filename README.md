@@ -1,4 +1,4 @@
-# Forecasting Ozone Days¶
+# Forecasting Ozone Days
 Collaborators: Richard Huang, Ruofan Wu, Shamil Saeed¶
 
 ## Understand
